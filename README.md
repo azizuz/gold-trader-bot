@@ -60,3 +60,84 @@ Edit `config.py` to customize:
 - Alert methods
 
 ## 📈 Example Output
+
+==================================================
+Gold Trading Bot - 2024-01-15 10:30:00
+==================================================
+📊 Collecting market data...
+✅ Gold price: $1950.50
+✅ DXY: 104.52
+✅ 10-Year Yield: 4.25%
+✅ Real Yield: -0.75%
+✅ Historical data: 7 days
+
+🤖 Analyzing signals...
+
+╔══════════════════════════════════════╗
+║ GOLD TRADING SIGNAL ║
+╠══════════════════════════════════════╣
+║ Action: BUY ║
+║ Confidence: 75.0% ║
+║ Price: $1950.50 ║
+║ RSI: 28.5 ║
+╚══════════════════════════════════════╝
+
+Reasons:
+• Oversold (RSI: 28.5)
+• Bullish MA crossover
+• Negative real yields support gold
+
+🔔 Sending alert for strong signal...
+✅ Bot run completed at 10:30:00
+
+text
+
+## 🛡️ Risk Warning
+
+⚠️ **IMPORTANT DISCLAIMER**
+
+This bot is for **EDUCATIONAL PURPOSES ONLY**.
+
+- **NEVER** trade with real money based solely on these signals
+- **ALWAYS** do your own research
+- **START** with paper trading
+- **UNDERSTAND** that all trading involves risk
+- **CONSULT** a financial advisor before real trading
+
+## 🔧 Technical Details
+
+### Project Structure
+xauusd-trading-bot/
+├── main.py # Main bot runner
+├── data_collector.py # Market data collection
+├── signal_generator.py # Signal generation logic
+├── alert_system.py # Alert/notification system
+├── database.py # Database operations (optional)
+├── config.py # Configuration settings
+├── requirements.txt # Python dependencies
+└── README.md # This file
+
+text
+
+### Dependencies
+See `requirements.txt` for full list.
+
+## 📝 License
+
+MIT License - See LICENSE file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## ❓ Getting Help
+
+- Open an Issue for bug reports
+- Check the code comments for documentation
+- Review the config.py file for customization options
+
+---
+**Remember**: Trading bots are tools, not magic. Always use proper risk management!
